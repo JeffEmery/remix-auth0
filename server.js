@@ -21,7 +21,7 @@ app.use(compression())
 app.disable('x-powered-by')
 
 // http://expressjs.com/en/advanced/best-practice-security.html#use-helmet
-app.use(helmet())
+//app.use(helmet())
 
 // Remix fingerprints its assets so we can cache forever.
 app.use(
